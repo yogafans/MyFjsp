@@ -1,0 +1,30 @@
+﻿  fjsp.cpp
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(53,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(65,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(213,37): warning C4018: “>=”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(268,16): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(387,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(397,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(430,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(552,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(565,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(572,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(598,99): warning C4018: “>=”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(605,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(617,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(624,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(801,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(814,39): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(862,47): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(929,51): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(983,47): warning C4244: “参数”: 从“float”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(1039,23): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(1071,35): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(1077,47): warning C4018: “<”: 有符号/无符号不匹配
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(1647,37): warning C4305: “参数”: 从“double”到“float”截断
+F:\重要文件\研究生任务\算法实现\fjsp\fjsp.cpp(1648,37): warning C4305: “参数”: 从“double”到“float”截断
+  fjsp.vcxproj -> F:\重要文件\研究生任务\算法实现\fjsp\Debug\fjsp.exe
