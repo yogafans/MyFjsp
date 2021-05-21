@@ -1828,11 +1828,11 @@ void MAE(int p,Solution &S_star) {
     Solution S2_temp;
     int gen = 0;
     int best_obj = INT_MAX;
-    while (1) {
+    while (S_star.makespan<=26) {
         stop_watch s;
         s.start();
-        if (gen > 100)
-            break;
+        /*if (gen > 100)
+            break;*/
         PR(S1, S2, S1_temp,0.4,0.6,5);
         PR(S2, S1, S2_temp,0.4,0.6,5);
         TS(S1_temp,S1);
@@ -1877,7 +1877,7 @@ void MAE(int p,Solution &S_star) {
 
 int main(char argc,char*argv[])
 {   
-    char input_file[] = "data\\fjsp.brandimarte.Mk04.m8j15c3.txt";
+    char input_file[] = "data\\fjsp.brandimarte.Mk02.m6j10c6.txt";
     get_file(input_file);
     for (const auto& x : job) {
         ope_sum += x.size();
