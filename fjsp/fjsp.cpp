@@ -1828,7 +1828,10 @@ void MAE(int p,Solution &S_star) {
     Solution S2_temp;
     int gen = 0;
     int best_obj = INT_MAX;
-    while (S_star.makespan<=26) {
+	cout.clear(ios::goodbit);
+	cout<<"11:" << S_star.makespan << endl;
+	cout.setstate(ios::failbit);
+    while (S_star.makespan>=26) {
         stop_watch s;
         s.start();
         /*if (gen > 100)
@@ -1892,7 +1895,7 @@ int main(char argc,char*argv[])
     Initial(test_s1);
     Initial(test_s2);
     caculate_makespan_Ini(test_s);
-	caculate_makespan_Ini(test_s1);
+	//caculate_makespan_Ini(test_s1);
     cout << "ope_sum:" << ope_sum << endl;
     //caculate_makespan_Ini(test_s1);
     
