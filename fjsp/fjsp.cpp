@@ -1892,6 +1892,7 @@ int main(char argc,char*argv[])
     Initial(test_s1);
     Initial(test_s2);
     caculate_makespan_Ini(test_s);
+	caculate_makespan_Ini(test_s1);
     cout << "ope_sum:" << ope_sum << endl;
     //caculate_makespan_Ini(test_s1);
     
