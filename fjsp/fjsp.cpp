@@ -1831,7 +1831,7 @@ void MAE(int p,Solution &S_star) {
 	cout.clear(ios::goodbit);
 	cout<<"11:" << S_star.makespan << endl;
 	cout.setstate(ios::failbit);
-    while (S_star.makespan>=26) {
+    while (S_star.makespan>172) {
         stop_watch s;
         s.start();
         /*if (gen > 100)
@@ -1880,7 +1880,7 @@ void MAE(int p,Solution &S_star) {
 
 int main(char argc,char*argv[])
 {   
-    char input_file[] = "data\\fjsp.brandimarte.Mk02.m6j10c6.txt";
+    char input_file[] = "data\\fjsp.brandimarte.Mk05.m4j15c2.txt";
     get_file(input_file);
     for (const auto& x : job) {
         ope_sum += x.size();
@@ -1898,7 +1898,6 @@ int main(char argc,char*argv[])
 	//caculate_makespan_Ini(test_s1);
     cout << "ope_sum:" << ope_sum << endl;
     //caculate_makespan_Ini(test_s1);
-    
     //int t = caculate_d(test_s, test_s1);
     cout << "machine_count:" << machine_count << endl;
     cout << "ope_in_machine:" << endl;
